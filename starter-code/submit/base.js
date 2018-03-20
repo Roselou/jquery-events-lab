@@ -6,8 +6,9 @@ $(document).ready(function(){
 
   $("#time").text( Date.now() );
 
-$('form').on("click", function handleClick(event){
+$('form').on("submit", function handleSubmit(event){
     event.preventDefault();
-    // more code down here
-});
+    $('body').append(rick_roll_youtube_embed_code);
+})
+
 })
