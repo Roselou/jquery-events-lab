@@ -18,3 +18,4 @@ $('.add').on('change', handleChange)
 // 	$('#total') = $('#left') + $('#right');
 // })
 // })
+ 
